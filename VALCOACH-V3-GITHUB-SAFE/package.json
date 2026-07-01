@@ -1,0 +1,12 @@
+{
+  "name": "valcoach-v3",
+  "version": "3.0.0",
+  "private": true,
+  "description": "VALCOACH - coach Valorant local avec proxy rank et Tracker.gg",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
