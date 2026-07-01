@@ -5,7 +5,7 @@ Application locale de coaching Valorant.
 ## Lancer
 
 ```powershell
-cd "D:\OneDrive\FILENAMELESS\5_Streaming\APP coachVAL\V3"
+cd "C:\votre chemin"
 copy .env.example .env
 node server.js
 ```
@@ -21,7 +21,7 @@ http://localhost:3000
 Le serveur lit :
 
 ```text
-https://valorantrank.chat/eu/Unfazeur/euw?onlyRank=true&mmrChange=true
+https://valorantrank.chat/REGION/PSEUDO/#RIOT?onlyRank=true&mmrChange=true
 ```
 
 et renvoie les infos a l'app via `/api/rank`.
